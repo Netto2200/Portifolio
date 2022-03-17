@@ -1,0 +1,252 @@
+/* Gerais */
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li{
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+
+header, .navbar{
+    background-color: #353D41;
+    padding-right: 0;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 200px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: whitesmoke;
+}
+
+.navbar-brand:hover{
+    color: whitesmoke;
+}
+
+#navbar-links a{
+    color: whitesmoke;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/*Banner*/
+.container-fluid{
+    padding: 0;
+}
+
+
+.carousel-caption{
+    top:34%;
+}
+.carousel-caption h2{
+    font-weight: bold;
+    color: #353D41;
+    font-family: 70px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-caption a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #353D41;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+    transition: font-weight; 
+}
+.carousel-caption a:hover{
+    font-weight: 800;
+}
+
+/*Sobre*/
+#about-area{
+    background-color: #353D41;
+    margin-top: 90px;
+    
+}
+.main-title{   
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin: -95px auto 65px auto;
+    text-align: center;
+    background-color: #353D41;
+    width: 150px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+.container p{
+   font-size: 18px;
+    text-align: justify;
+}
+
+/*Projetos*/
+#project-area{
+    margin-top: 90px;
+    background-color: #353D41;
+}
+
+#white{
+    width: 180px;
+}
+
+.title{
+    color: whitesmoke;
+    margin-top: auto;
+    margin-bottom: 40px;    
+}
+
+#video{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.content p{
+    margin: 20px 150px 20px 150px;
+}
+.content a{
+    text-decoration: none;
+    color: #353D41;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    margin-left: 500px;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+    transition: font-weight; 
+}
+.content a:hover{
+    font-weight: 800;
+}
+
+/* Footer*/
+
+#contact-area{
+    text-align: center;
+    margin-top: 90px;
+    background-color: #353D41;
+}
+
+#talk {
+    width: 250px;
+}
+
+.contact-box a{
+    text-decoration: none;
+}
+.contact-box i{
+    color: whitesmoke;
+    font-size: 70px;
+}
+
+.contact-box p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-title{
+    font-weight: bold;
+}
+
+#copy-area{
+    background-color: whitesmoke;
+}
+
+#copy-area .container{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+    color: #353D41;
+    text-align: center;
+}
+#copy-area .container a{
+    text-decoration: none;
+    color: #353D41;
+}
+
+#copy-area .container a:hover{
+    font-weight: bold;
+}
+
+/* Responsive */
+@media(max-width: 1024px){
+    body{
+        width: 1060px;
+    }
+    .carousel-caption h2{
+        width: 650px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .carousel-caption a{
+        margin-left: 10%;
+    }
+}
+@media(max-width: 768px){
+    /*geral*/
+    header{
+        width: 100%;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    
+    .carousel-caption{
+       top:30%; 
+     }
+    
+    .carousel-caption h2{
+        width: 638px;
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    
+    .carousel-caption a{
+        margin-left:60%;
+    }
+    #video{
+        margin-left: 10%;
+    }
+    .content a{
+        margin-left: 40%;
+    }
+
+}
+@media(max-width: 425px){
+    .container{
+        width: 100%;
+    }
+}
